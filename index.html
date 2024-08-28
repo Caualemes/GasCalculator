@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GasCalculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+    <div class="meio">
+        <aside>
+            <img src="images/img.png" id="imagem">
+        </aside>
+        <main>
+            <div class="main">
+                <h1 id="titulo">Gasolina ou Etanol?</h1>
+                <p id="resumo">Descubra qual é o ideal para o seu veículo!</p>
+                <hr>
+                <label for="precoGas">Preço da Gasolina</label>
+                <input id="precoGas" placeholder="R$ 00.00">
+                <label for="autonomiaGas">Autonomia da Gasolina</label>
+                <input id="autonomiaGas" placeholder="Km 00.00">
+                <label for="precoEtanol">Preço do Etanol</label>
+                <input id="precoEtanol" placeholder="R$ 00.00">
+                <label for="autonomiaEtanol">Autonomia do Etanol</label>
+                <input id="autonomiaEtanol" placeholder="Km 00.00">
+                <button type="submit" id="btn-calcular" onclick="calcular(); return false">Calcular</button>
+                <hr>
+                <p id="resultado"></p>
+                <hr>
+            </div>
+           
+            
+        </main>
+    </div>
+
+</body>
+</html>
