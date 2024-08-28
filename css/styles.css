@@ -123,7 +123,26 @@ label {
         width: 90%;
         height: 80vh;
     }
+
+    input{
+        height: 8%;
+        width: 70%;
+        border-radius: 15px;
+    }
+
+    button{
+        height: 12%;
+        width: 70%;
+        border-radius: 15px;
+    }
+
+    label {
+        width: 70%;
+        text-align: start;
+    }
 }
+
+/* Tablets */
 
 @media (min-width: 501px) and (max-width: 1024px) {
     body{
@@ -149,11 +168,13 @@ label {
     input{
         height: 10%;
         width: 70%;
+        border-radius: 15px;
     }
 
     button{
         height: 15%;
         width: 70%;
+        border-radius: 15px;
     }
 
     label {
